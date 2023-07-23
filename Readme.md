@@ -28,14 +28,13 @@ PUT /events/update/${id}
 | `event_end_date` | `date` | **Required** |
 | `event_category` | `array` | **Required** store only category ID in array like [1,2] |
 
-#### Get Events List
 
+#### Get Events List
 ```http
   GET /events/list
 ```
 
 #### Get Event by ID
-
 ```http
   GET /events/show/${id}
 ```
@@ -45,9 +44,8 @@ PUT /events/update/${id}
 | `id`      | `stiring` | **Required**. Id of item to fetch |
 
 #### Delete Event by ID
-
 ```http
-  GET /events/delete/${id}
+  DELETE /events/delete/${id}
 ```
 
 | Parameter | Type     | Description                       |
